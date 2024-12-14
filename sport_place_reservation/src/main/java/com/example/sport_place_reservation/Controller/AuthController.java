@@ -1,5 +1,11 @@
 package com.example.sport_place_reservation.Controller;
 
+import com.example.sport_place_reservation.DTO.request.GoogleLoginRequest;
+import com.example.sport_place_reservation.DTO.request.LoginRequest;
+import com.example.sport_place_reservation.DTO.response.AuthResponse;
+import com.example.sport_place_reservation.DTO.response.JwtAuthenticationResponse;
+import com.example.sport_place_reservation.DTO.response.MessageResponse;
+import com.example.sport_place_reservation.Service.AuthService;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

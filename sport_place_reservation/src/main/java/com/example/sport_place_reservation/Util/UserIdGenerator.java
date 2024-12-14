@@ -7,7 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Component
 public class UserIdGenerator {
   private static final String USER_ID_PREFIX = "U";
-  private static final String USER_ID_FORMAT = "U%05d";
+  private static final String USER_ID_FORMAT = "A%05d";
   private static final int INITIAL_ID = 1;
 
   private final UserRepository userRepository;
